@@ -36,6 +36,3 @@ class AuthorList(AuthorBase):
 
     class Config:
         orm_mode = True
-
-
-

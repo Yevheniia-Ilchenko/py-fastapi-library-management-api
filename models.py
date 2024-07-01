@@ -22,7 +22,3 @@ class DBBook(Base):
 
     author_id = Column(Integer, ForeignKey("authors.id"))
     author = relationship("DBAuthor", back_populates="books")
-
-
-
-
